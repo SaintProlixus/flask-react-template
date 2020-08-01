@@ -6,3 +6,6 @@ node_modules
 
 # Build Files
 bundle.js
+
+# Python cache
+__pycache__
