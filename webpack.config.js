@@ -1,11 +1,10 @@
 const webpack = require('webpack');
 const resolve = require('path').resolve;
 const config = {
-    entry: __dirname + '/js/index.jsx',
+    entry: __dirname + '/src/index.jsx',
     output:{
-        path: resolve('../public'),
+        path: resolve(__dirname, 'public/static/build/js'),
         filename: 'bundle.js',
-        publicPath: resolve('../public')
     },
     resolve: {
         extensions: ['.js','.jsx','.css']
